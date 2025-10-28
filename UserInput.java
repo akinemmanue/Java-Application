@@ -21,8 +21,8 @@ public class UserInput{
 		System.out.printf("Your account balance is $ %.2f%n",bal);
 		
 		
-		input.close();
 		
+		input.close();
 		
 		
 	}
