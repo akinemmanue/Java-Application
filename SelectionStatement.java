@@ -17,6 +17,23 @@ public class SelectionStatement{
 			System.out.printf("%d is greater than %d%n",num1,num2);
 		else
 			System.out.printf("%d is greater than %d%n",num2,num1);
+
+
+		/* CONTROL STRUCTURE
+		 - Selection 
+			Single selection
+			Double selection
+			Multiple selection
 		
-	}
+		- Repitition 
+			for loop
+			while loop
+			do while loop
+			
+		- Jump
+			break
+			continue
+		
+		*/
+	}		
 }
