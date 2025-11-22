@@ -1,16 +1,15 @@
 public class CommandLineArguments{
 	
 	public static void main(String[] args){
-		String size = "";
 		int[] arrays;
 		
+	
 		if(args.length > 0){
-			size += args;
-			arrays = new int[Integer.parseInt(size)];
+			arrays = new int[Integer.parseInt(args[0])];
 		}else{
 			arrays = new int[10];
 		}
-		
+		System.out.println("Array size is " + arrays.length);		
 	}
 	
 }
